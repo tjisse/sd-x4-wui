@@ -40,4 +40,4 @@ gr.Interface(fn=upscale_image,
                      attention_slicing_input],
              outputs=[output_image],
              title="Stable Diffusion x4 Upscaler - Web GUI",
-             allow_flagging=False).launch()
+             allow_flagging=False).launch(share = True)
